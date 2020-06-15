@@ -6,12 +6,14 @@
 
 ## Idee der Übung
 
-Mit dem Aufgabenblatt sollen Ihre Fähigkeiten beim objektorientierten Entwurf und der entsprechenden Implementierung weiter trainiert werden. Achten Sie dabei darauf:
+Mit dem Aufgabenblatt sollen Ihre Fähigkeiten beim objektorientierten Entwurf und der entsprechenden Implementierung weiter trainiert werden. Gehen Sie dabei wie folgt vor:
 
-+ die Klassen in einzelnen Dateien zu speichern
-+ die Signaturen ihrer festzulegen, in die Dateien zu integrieren und dann eine Version ohne funktionalität ins repositorium zu übertragen
-+ die Implementierungen in Branches zu organisieren
-+ über Issues die Zuständigkeiten bei Ihrer Implementierung zu klären und die Issues mit entsprechenden Commits zu schließen.
++ definieren Sie gemeinsam mit Ihrem Mitstreiter eine Klassenstruktur, die Sie zunächst in UML grafisch festhalten
++ implementieren Sie diese Struktur in Csharp zunächst ohne Funktionalität (und speichern Sie dabei die Klassen in einzelnen Dateien)
++ übertragen Sie diese Version ins Repository und ordnen Sie über Issues die Zuständigkeiten bei Ihrer Implementierung zu
++ legen Sie Branches an, in denen Sie die Teilaufgaben realisieren 
++ schließen Sie Issues und Commits nach dem Erledigen der Aufgabe
++ versehen Sie die Finale Version mit einem Tag.
 
 ## 1. Nullable Types
 
@@ -91,4 +93,4 @@ Testen Sie Ihre Tierklassen in der Main -Methode.
 
 ## 3. UML Darstellung zu Aufgabe 2 
 
-Generieren Sie wiederum ein UML Diagramm aus Aufgabe 2. Sie können dies manuell oder unter zu Hilfenahme der Actions, die in Aufgabenblatt 4 zum Einsatz kamen tuen.
+Generieren Sie wiederum ein UML Diagramm der Lösung mit dem Methoden aus Aufgabe 2. Vergleichen Sie das Resultat mit Ihrem ursprünglichen Entwurf. An welchen Stellen haben Sie nachjustiert?
