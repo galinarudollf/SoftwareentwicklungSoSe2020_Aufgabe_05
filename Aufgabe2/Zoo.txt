@@ -1,0 +1,55 @@
+@startuml
+abstract class Pet
+{
++ string Name
++ string Owner
++ Pet(string _name, String _owner)
++ {abstract} Attend()
+}
+abstract class Mammal
+{
++ Mammal(string _name, String _owner)
++ {abstract} Move()
+}
+abstract class Fish
+{
++ Fish(string _name, String _owner)
++ {abstract} Swim()
++ Attend()
+}
+class Bunny
+{
++ Bunny(string _name, String _owner)
++ Attend()
++ Move()
+}
+class Cat
+{
++ Cat(string _name, String _owner)
++ Attend()
++ Move()
+}
+class Goldfish
+{
++ Goldfish(string _name, String _owner)
++ Swim()
+}
+class Guppy
+{
++ Guppy(string _name, String _owner)
++ Swim()
+}
+Pet <|-- Fish
+Pet <|-- Mammal	
+Fish <|-- Guppy
+Fish <|-- Goldfish
+Mammal <|-- Cat
+Mammal <|-- Bunny
+
+interface IStrokeable
+{
++ stroke()
+}
+IStrokeable <|.. Mammal
+IStrokeable <|.. Goldfish
+@enduml
